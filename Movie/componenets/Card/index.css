@@ -1,0 +1,44 @@
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  margin: 16px;
+  padding: 10px;
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  max-width: 100px;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.movie-details {
+  margin-left: 15px;
+}
+
+.movie-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.movie-year {
+  color: gray;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.movie-description {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.movie-rating {
+  font-size: 1em;
+  color: #f39c12;
+}

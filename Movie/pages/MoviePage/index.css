@@ -1,0 +1,35 @@
+.movie-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Space between the two sections */
+  }
+  
+  .movie-details {
+    flex: 1;
+    max-width: 60%; /* Adjust according to your needs */
+  }
+  
+  .movie-images {
+    flex: 1;
+    max-width: 35%; /* Adjust according to your needs */
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .movie-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: orange;
+    color: white;
+    font-weight: 900;
+  }

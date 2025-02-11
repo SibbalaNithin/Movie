@@ -1,0 +1,33 @@
+.home {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  color: #fff;
+  /* height: 65vh; */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.explore-button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.pagination{
+  margin-top: 50px;
+}
+.explore-button:hover {
+  background-color: #e03e00;
+}
